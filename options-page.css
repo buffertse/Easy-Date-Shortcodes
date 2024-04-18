@@ -1,0 +1,105 @@
+/* Add some custom styles to the options page */
+.wrap {
+    margin: 25px 12px;
+    max-width: 50%;
+}
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+form {
+  background: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: right!important;
+  vertical-align: top!important;
+  padding-top: 25px!important;
+  font-size: 1.2em!important;
+  font-weight: 600!important;
+  width: 25%;
+}
+
+td {
+  vertical-align: top;
+  padding: 10px;
+  width: 75%;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.2em;
+  color: #666;
+
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.2em;
+  transition: 0.2s;
+}
+
+select {
+  width: 100%;
+  padding: 5px 15px!important;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.2em!important;
+  transition: 0.2s;
+  max-width:100%!important;
+}
+
+
+input[type="text"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  background: #3498db;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button[type="submit"]:hover {
+  background: #2980b9;
+}
+
+button[type="submit"]:active {
+  background: #2980b9;
+  transform: translateY(2px);
+}
+
+@media (max-width: 767px) {
+  /* Make the left column full width on small screens */
+  th, td {
+    width: 100%;
+  }
+
+th {
+  text-align: left!important;}
+
+}
+
